@@ -1,6 +1,5 @@
 from tkinter import * 
 import logicaIndices as ind
-import getpass
 
 root = Tk()
 root.title("Indice de Masa Corporal")
@@ -55,9 +54,6 @@ etiquetaResultado.place(x=150, y=245)
 
 campoResultado =Entry(bd=5, border=5, textvariable=resultado, state="disabled")
 campoResultado.place(x=200, y=300)
-
-
-
 
 
 
